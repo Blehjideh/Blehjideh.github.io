@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body onload="Myfunction()">
+    <h2>Solar System Quiz</h2>
+    <label>Name</label>
+    <input type="text" id="Name">
+    <div>
+        <h3>What's the third planet from the sun</h3>
+        <label class="answer">Mars</label>
+        <input type="radio" name="Answer1" value="0">
+        <br>
+        <label class="answer">
+            Earth
+        </label>
+        <input type="radio" name="Answer1" value="1">
+        <br>
+        <label class="answer">Venus</label>
+        <input type="radio" name="Answer1" value="0">
+    </div>
+    <div>
+        <h3>Is Sun a planet</h3>
+        <label class="answer">Yes</label>
+        <input type="radio" name="Answer2" value="0">
+        <br>
+        <label class="answer">
+            No
+        </label>
+        <input type="radio" name="Answer2" value="1">
+        <br>
+        <label class="answer"></label>
+        <input type="radio" name="Answer2" value="0" hidden>
+    </div>
+    <div>
+        <h3>What is the biggest planet in the solar system</h3>
+        <label class="answer">Saturn</label>
+        <input type="radio" name="Answer3" value="0">
+        <br>
+        <label class="answer">
+            Jupiter
+        </label>
+        <input type="radio" name="Answer3" value="1">
+        <br>
+        <label class="answer">Venus</label>
+        <input type="radio" name="Answer3" value="0">
+    </div>
+    <div>
+        <h3>What is the planet nearest to the sun</h3>
+        <label class="answer">Uranus</label>
+        <input type="radio" name="Answer4" value="0">
+        <br>
+        <label class="answer">
+            Mercury
+        </label>
+        <input type="radio" name="Answer4" value="1">
+        <br>
+        <label class="answer">Venus</label>
+        <input type="radio" name="Answer4" value="0">
+    </div>
+    <div>
+        <h3>Is the sun a Planet, Moon, or Star</h3>
+        <label class="answer">Moon</label>
+        <input type="radio" name="Answer5" value="0">
+        <br>
+        <label class="answer">
+            Star
+        </label>
+        <input type="radio" name="Answer5" value="1">
+        <br>
+        <label class="answer">Planet</label>
+        <input type="radio" name="Answer5" value="0">
+    </div>
+    <br>
+    <button id="SubmitButton" onclick="Quizcode()">Submit</button>
+    <h2 id="Score"></h2>
+</body>
+</html>
