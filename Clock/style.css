@@ -1,0 +1,22 @@
+
+#Time{
+   text-align: center;
+   font-size: 75px;
+   margin-top: 10%;   
+}
+html{
+    background-image: linear-gradient(to top right ,skyblue,springgreen);
+}
+#Date{
+    text-align: center;
+    font-size: 55px;
+}
+#Quote{
+    text-align: center;
+    font-size: 35px;
+}
+#Credit{
+    margin-top: 17%;
+    text-align: center;
+    font-size: 19px;
+}
